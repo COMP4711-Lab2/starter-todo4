@@ -1,5 +1,7 @@
 <?php
- class TaskListTest extends PHPUnit_Framework_TestCase
+ use PHPUnit\Framework\TestCase;
+
+   class TaskListTest extends TestCase
   {  
   
 	private $CI;

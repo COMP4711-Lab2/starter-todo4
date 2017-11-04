@@ -1,7 +1,9 @@
 <?php
- class TaskTest extends PHPUnit_Framework_TestCase
+ use PHPUnit\Framework\TestCase;
+
+ class TaskTest extends TestCase
   {  
-  
+	
 	private $CI;
      
     public function setUp()
